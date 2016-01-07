@@ -1,5 +1,6 @@
 *.gem
 *.rbc
+.sublime-project
 /.config
 /coverage/
 /InstalledFiles
