@@ -9,6 +9,8 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/log
+/cache
 
 ## Specific to RubyMotion:
 .dat*
@@ -38,3 +40,4 @@ build/
 *.sublime-project
 
 *.sublime-workspace
+
