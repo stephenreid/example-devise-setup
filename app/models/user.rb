@@ -6,7 +6,9 @@ class User < ActiveRecord::Base
 
   before_save :remove_dash_from_phone
 
+  validates_presence_of :phone
+
   def remove_dash_from_phone
-    self.phone = phone.gsub '-',''
+    self.phone = phone.gsub '-','' if phone
   end
 end
