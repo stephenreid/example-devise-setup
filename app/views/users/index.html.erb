@@ -1,0 +1,11 @@
+<table>
+<% @users.each do |u| %>
+	<tr>
+		<td>
+			<%= u.email %>
+		</td>
+	</tr>
+<% end %>
+</table>
+<%= link_to 'sign out', destroy_user_session_path, method: :delete %>
+
